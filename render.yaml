@@ -1,0 +1,24 @@
+# Render Blueprint for JISAN MOBILE Production Backend
+# Deploys Node.js API server with persistent disk for database & APK storage
+
+services:
+  - type: web
+    name: jisan-mobile-backend
+    env: node
+    plan: starter
+    region: singapore # Closest to Bangladesh / West Bengal for low latency
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SERVER_PORT
+        value: 3000
+      - key: ADMIN_SECRET_KEY
+        value: jisan786
+      - key: PUBLIC_BASE_URL
+        sync: false # Set to your https://jisan-mobile-backend.onrender.com URL
+    disk:
+      name: jisan-data
+      mountPath: /app/data
+      sizeGB: 1

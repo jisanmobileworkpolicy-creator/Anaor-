@@ -1,0 +1,20 @@
+[
+  {
+    "id": "prod_realme_12_pro",
+    "nameEn": "Realme 12 Pro 5G (8GB/256GB)",
+    "nameBn": "রিয়েলমি ১২ প্রো ৫জি (৮জিবি/২৫৬জিবি)",
+    "categoryId": "cat_new_smartphones",
+    "brand": "Realme",
+    "model": "12 Pro 5G",
+    "condition": "NEW",
+    "price": 23999,
+    "mrp": 27999,
+    "stock": 5,
+    "imageUrl": "https://ais-dev-wrt3x77rkmwpod2cweoth6-79122091620.asia-east1.run.app/uploads/realme12pro.jpg",
+    "isAvailable": true,
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "descriptionEn": "Qualcomm Snapdragon 6 Gen 1, 32MP Telephoto Camera, 67W Fast Charging, 120Hz Curved Vision Display.",
+    "descriptionBn": "কোয়ালকম স্ন্যাপড্রাগন প্রসেসর, ৩২ মেগাপিক্সেল টেলিফটো ক্যামেরা, ৬৭ ওয়াট ফাস্ট চার্জিং ও ১২০ হার্জ কার্ভড ডিসপ্লে। অফিসিয়াল ওয়ারেন্টি।"
+  }
+]

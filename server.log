@@ -1,0 +1,134 @@
+JISAN MOBILE Web & APK server listening on 0.0.0.0:3000
+[2026-10-21T16:21:00.731Z] HEAD /
+[2026-10-21T16:21:00.768Z] HEAD /JISAN_MOBILE.apk
+[2026-10-21T16:21:06.936Z] GET /
+[2026-10-21T16:21:06.954Z] GET /JISAN_MOBILE.apk
+[2026-10-21T16:22:04.960Z] GET /
+[2026-10-21T16:25:44.531Z] HEAD /
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-23T07:15:59.303Z] HEAD /api/health
+[2026-10-23T07:16:06.556Z] GET /api/app/check-update
+[2026-10-23T07:16:10.426Z] HEAD /JISAN_MOBILE.apk
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-23T07:19:16.779Z] GET /api/products
+[2026-10-23T07:19:22.893Z] POST /api/products
+[2026-10-23T07:19:33.834Z] POST /api/products
+[2026-10-23T07:19:46.276Z] POST /api/upload
+[2026-10-23T07:19:51.338Z] HEAD /uploads/img_1792739986277_79c16d8e.jpg
+[2026-10-23T07:20:02.055Z] DELETE /api/products/test_phone_1
+[2026-10-23T07:20:14.328Z] GET /api/products
+[2026-10-23T07:20:23.307Z] POST /api/admin/app/publish-update
+[2026-10-23T07:20:27.813Z] GET /api/app/check-update
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-23T07:36:24.711Z] GET /api/health
+[2026-10-23T07:36:31.451Z] POST /api/admin/app/publish-update
+[2026-10-23T07:36:36.965Z] POST /api/admin/app/publish-update
+[2026-10-23T07:36:41.556Z] GET /api/app/check-update
+[2026-10-23T08:33:23.758Z] GET /api/health
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-23T08:42:23.264Z] GET /api/health
+[2026-10-23T08:42:23.293Z] POST /api/products
+[2026-10-23T08:42:23.313Z] GET /api/products
+[2026-10-23T08:42:23.336Z] POST /api/orders
+[2026-10-23T08:42:23.360Z] GET /api/app/check-update
+[2026-10-23T08:42:23.377Z] DELETE /api/products/test_phone_live
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-24T17:29:11.881Z] GET /api/health
+[2026-10-24T17:31:23.305Z] GET /api/health
+[2026-10-24T17:31:29.951Z] GET /api/products
+[2026-10-24T17:31:34.666Z] GET /JISAN_MOBILE.apk
+[2026-10-24T17:31:42.227Z] GET /api/app/check-update
+[2026-10-24T17:32:10.828Z] GET /api/products
+[2026-10-24T17:33:43.845Z] GET /api/health
+[2026-10-24T17:35:17.101Z] GET /api/health
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1941:16)
+    at listenInCluster (node:net:1998:12)
+    at node:net:2207:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1977:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+Node.js v22.23.3
+[2026-10-24T17:36:31.166Z] GET /api/health
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-24T17:36:50.221Z] GET /api/health
+[2026-10-24T17:36:56.117Z] GET /api/health
+[2026-10-24T17:37:00.490Z] POST /api/products
+[2026-10-24T17:37:04.766Z] POST /api/products
+[2026-10-24T17:37:09.355Z] GET /api/products
+[2026-10-24T17:37:14.162Z] DELETE /api/products/test1
+[2026-10-24T17:37:18.293Z] GET /api/products
+[2026-10-24T17:42:02.809Z] HEAD /JISAN_MOBILE.apk
+[2026-10-24T17:50:58.702Z] POST /api/products
+[2026-10-24T17:51:15.940Z] GET /api/products
+[2026-10-24T17:51:22.287Z] POST /api/products
+[2026-10-24T17:51:30.155Z] GET /api/products
+[2026-10-24T17:51:35.805Z] GET /api/products
+[2026-10-24T17:51:41.864Z] DELETE /api/products/phone_live_test_01
+[2026-10-24T17:51:46.117Z] GET /api/products
+[2026-10-24T17:51:52.979Z] POST /api/products
+[2026-10-24T17:51:58.636Z] HEAD /JISAN_MOBILE.apk
+[2026-10-24T17:52:08.904Z] GET /api/app/check-update
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-24T18:11:40.396Z] GET /api/health
+[2026-10-24T18:11:48.781Z] POST /api/admin/app/sync-current-apk
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-24T18:12:31.777Z] GET /api/health
+[2026-10-24T18:12:45.782Z] POST /api/admin/app/sync-current-apk
+[2026-10-24T18:12:59.138Z] POST /api/admin/app/upload-apk
+[2026-10-24T18:13:22.237Z] GET /api/app/check-update
+[2026-10-24T18:20:40.731Z] GET /api/health
+[2026-10-24T18:20:52.093Z] POST /api/admin/app/sync-current-apk
+[2026-10-24T18:21:07.636Z] POST /api/admin/app/publish-update
+[2026-10-24T18:21:18.548Z] POST /api/admin/app/publish-update
+[2026-10-24T18:30:45.397Z] GET /uploads/realme12pro.jpg
+[2026-10-24T18:33:40.463Z] GET /api/app/check-update
+[2026-10-24T18:33:40.654Z] GET /api/products
+[2026-10-24T18:33:41.806Z] GET /uploads/realme12pro.jpg
+[2026-10-24T18:34:57.546Z] GET /api/products
+[2026-10-24T18:34:57.548Z] GET /api/app/check-update
+[2026-10-24T18:34:58.791Z] GET /uploads/realme12pro.jpg
+[2026-10-24T18:34:59.000Z] GET /uploads/realme12pro.jpg
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1941:16)
+    at listenInCluster (node:net:1998:12)
+    at node:net:2207:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1977:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8080
+}
+
+Node.js v22.23.3
+JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
+[2026-10-24T18:36:40.136Z] GET /api/health
+[2026-10-24T18:36:44.469Z] GET /api/health
+[2026-10-24T18:43:21.923Z] GET /api/health
+[2026-10-24T18:43:27.105Z] GET /api/health
+[2026-10-24T18:43:53.013Z] HEAD /JISAN_MOBILE.apk
+[2026-10-24T18:43:58.142Z] GET /api/app/check-update
+[2026-10-24T18:44:03.319Z] POST /api/products
+[2026-10-24T18:44:08.038Z] GET /api/products
+[2026-10-24T18:44:12.452Z] DELETE /api/products/test_prod_verify
+[2026-10-24T18:44:16.562Z] GET /api/products

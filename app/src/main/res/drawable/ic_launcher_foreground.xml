@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer accent circle ring -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M54,18 A36,36 0 1 1 53.99,18 Z" />
+    
+    <!-- Letter J -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,36 L46,36 L46,62 C46,68 41,72 34,72 C28,72 24,68 24,62 L31,62 C31,65 33,66.5 35,66.5 C38,66.5 39.5,64.5 39.5,61 L39.5,36 Z" />
+    
+    <!-- Letter M -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,36 L55,36 L64,54 L73,36 L80,36 L80,72 L73,72 L73,48 L65.5,64 L62.5,64 L55,48 L55,72 L48,72 Z" />
+        
+    <!-- Golden underline bar under JM -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M32,76 L76,76 A2,2 0 0 1 76,80 L32,80 A2,2 0 0 1 32,76 Z" />
+</vector>

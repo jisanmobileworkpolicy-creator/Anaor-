@@ -1,0 +1,7 @@
+{
+  "name": "JISAN MOBILE",
+  "description": "Mobile phones and accessories shop app for JISAN MOBILE featuring product catalog, cart, checkout, orders, Bengali localization, and admin management.",
+  "requestFramePermissions"
+  : [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

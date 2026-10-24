@@ -1,0 +1,9 @@
+{
+  "name": "jisan-mobile-app",
+  "version": "1.0.0",
+  "description": "JISAN MOBILE APK Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

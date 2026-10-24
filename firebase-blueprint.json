@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "Product": {
+      "collection": "products",
+      "fields": {
+        "id": { "type": "string" },
+        "nameEn": { "type": "string" },
+        "nameBn": { "type": "string" },
+        "categoryId": { "type": "string" },
+        "brand": { "type": "string" },
+        "model": { "type": "string" },
+        "condition": { "type": "string", "enum": ["NEW", "SECOND_HAND"] },
+        "price": { "type": "number" },
+        "mrp": { "type": "number" },
+        "stock": { "type": "integer" },
+        "imageUrl": { "type": "string" },
+        "isAvailable": { "type": "boolean" },
+        "isBestSeller": { "type": "boolean" },
+        "isNewArrival": { "type": "boolean" },
+        "descriptionEn": { "type": "string" },
+        "descriptionBn": { "type": "string" },
+        "batteryHealth": { "type": "integer", "optional": true },
+        "cosmeticCondition": { "type": "string", "optional": true },
+        "includedAccessories": { "type": "string", "optional": true },
+        "warrantyMonths": { "type": "integer", "optional": true }
+      }
+    },
+    "Category": {
+      "collection": "categories",
+      "fields": {
+        "id": { "type": "string" },
+        "nameEn": { "type": "string" },
+        "nameBn": { "type": "string" },
+        "iconKey": { "type": "string" },
+        "displayOrder": { "type": "integer" },
+        "isVisible": { "type": "boolean" }
+      }
+    },
+    "Order": {
+      "collection": "orders",
+      "fields": {
+        "orderNumber": { "type": "string" },
+        "customerId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "addressLine": { "type": "string" },
+        "locality": { "type": "string" },
+        "district": { "type": "string" },
+        "state": { "type": "string" },
+        "pinCode": { "type": "string" },
+        "itemsJson": { "type": "string" },
+        "subtotalAmount": { "type": "number" },
+        "deliveryFee": { "type": "number" },
+        "totalAmount": { "type": "number" },
+        "paymentMethod": { "type": "string" },
+        "status": { "type": "string" },
+        "trackingNotes": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      }
+    },
+    "PromotionalBanner": {
+      "collection": "promotional_banners",
+      "fields": {
+        "id": { "type": "string" },
+        "titleEn": { "type": "string" },
+        "titleBn": { "type": "string" },
+        "subtitleEn": { "type": "string" },
+        "subtitleBn": { "type": "string" },
+        "targetCategoryId": { "type": "string", "optional": true },
+        "discountTag": { "type": "string" },
+        "isActive": { "type": "boolean" }
+      }
+    },
+    "ShopSettings": {
+      "collection": "shop_settings",
+      "fields": {
+        "id": { "type": "string" },
+        "shopName": { "type": "string" },
+        "brandSloganBn": { "type": "string" },
+        "shopAddress": { "type": "string" },
+        "primaryPhone": { "type": "string" },
+        "whatsappNumber": { "type": "string" },
+        "deliveryFee": { "type": "number" },
+        "freeDeliveryAbove": { "type": "number" }
+      }
+    }
+  }
+}
