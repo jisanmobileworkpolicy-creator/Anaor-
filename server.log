@@ -132,3 +132,7 @@ JISAN MOBILE Web, API & APK server listening on 0.0.0.0:3000
 [2026-10-24T18:44:08.038Z] GET /api/products
 [2026-10-24T18:44:12.452Z] DELETE /api/products/test_prod_verify
 [2026-10-24T18:44:16.562Z] GET /api/products
+[2026-10-24T20:13:46.397Z] GET /api/health
+[2026-10-24T20:13:50.789Z] GET /api/health
+[2026-10-24T20:13:58.451Z] GET /api/app/check-update
+[2026-10-24T20:13:58.532Z] HEAD /JISAN_MOBILE.apk
