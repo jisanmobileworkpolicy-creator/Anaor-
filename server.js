@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
-const PORT = process.env.SERVER_PORT ? parseInt(process.env.SERVER_PORT, 10) : 3000;
+const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
 const ADMIN_SECRET_KEY = process.env.ADMIN_SECRET_KEY || 'jisan786';
 const PUBLIC_BASE_URL = process.env.PUBLIC_BASE_URL ? process.env.PUBLIC_BASE_URL.replace(/\/+$/, '') : null;
 
